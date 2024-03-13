@@ -8,3 +8,4 @@ class TeachersSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model= TeachersModel
         fields = "__all__"
+
